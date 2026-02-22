@@ -1,0 +1,802 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CS 499 ePortfolio — Joshua Messer</title>
+    <meta name="description" content="SNHU CS 499 ePortfolio: self-assessment, code review, enhancements, artifacts, and course outcomes." />
+    <link rel="stylesheet" href="assets/css/style.css" />
+</head>
+
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <div class="layout">
+
+        <!-- One header + one nav (topbar on mobile, sidebar on desktop via CSS) -->
+        <header class="site-header" role="banner">
+            <div class="header-top">
+                <div class="brand">
+                    <div class="brand-title">CS 499 ePortfolio</div>
+                    <div class="brand-subtitle">
+                        Joshua Messer • Specialization:
+                        <span class="pill">Computer Science</span>
+                    </div>
+                </div>
+
+                <button class="nav-toggle" aria-label="Toggle navigation" aria-expanded="false" aria-controls="primary-nav">
+                ☰
+                </button>
+            </div>
+
+            <nav id="primary-nav" class="nav" aria-label="Primary navigation">
+                <a href="#introduction">Introduction</a>
+                <a href="#self-assessment">Self-Assessment</a>
+                <a href="#code-review">Code Review</a>
+                <a href="#enhancement-1">Enhancement One</a>
+                <a href="#enhancement-2">Enhancement Two</a>
+                <a href="#enhancement-3">Enhancement Three</a>
+                <a href="#course-outcomes">Course Outcomes</a>
+                <a href="#artifacts">Artifacts</a>
+            </nav>
+
+            <div class="header-foot">
+                <span class="badge">SNHU CS 499</span>
+                <span class="badge">GitHub Pages</span>
+            </div>
+        </header>
+
+        <main id="main" class="content container" role="main">
+
+        <!-- Title block (matches the “simple long page” pattern) -->
+        <section class="hero card" aria-labelledby="page-title">
+            <h1 id="page-title">CS 499 ePortfolio</h1>
+            <p class="muted">
+            Feel free to bookmark this page. It contains my Professional Self-Assessment, Informal Code Review,
+            and enhancement narratives aligned to CS 499 outcomes.
+            </p>
+
+            <div class="toc">
+                <p class="muted"><strong>Quick links:</strong></p>
+                <ul class="list compact">
+                    <li><a href="#self-assessment">Professional Self-Assessment</a></li>
+                    <li><a href="#code-review">Informal Code Review</a></li>
+                    <li><a href="#enhancement-1">Enhancement One: Software Design & Engineering</a></li>
+                    <li><a href="#enhancement-2">Enhancement Two: Algorithms & Data Structures</a></li>
+                    <li><a href="#enhancement-3">Enhancement Three: Databases</a></li>
+                    <li><a href="#course-outcomes">Course Outcomes</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- INTRODUCTION -->
+        <section id="introduction" class="card" aria-labelledby="intro-title">
+            <div class="section-head">
+                <h2 id="intro-title">Introduction</h2>
+                <p class="muted">Overview of this ePortfolio and how it is organized</p>
+            </div>
+
+            <p>
+            Hello, my name is Joshua Messer. This GitHub Pages site serves as my CS 499 ePortfolio and provides a cohesive
+            presentation of my original and enhanced artifacts, including supporting narratives aligned to course outcomes.
+            </p>
+
+            <p>
+            This ePortfolio includes two artifacts total:
+            </p>
+            <ul class="list">
+                <li>
+                    <strong>FFC-MacroButtons userscript</strong> — used for <strong>Enhancement One</strong> (Software Design & Engineering)
+                    and <strong>Enhancement Two</strong> (Algorithms & Data Structures).
+                </li>
+                <li>
+                    <strong>Grounded Creatures web application</strong> — used for <strong>Enhancement Three</strong> (Databases).
+                </li>
+            </ul>
+
+            <div class="callout">
+                The goal of this site is clarity: reviewers can easily access the code review, see before/after artifacts,
+                and read the narratives without hunting through folders.
+            </div>
+        </section>
+
+        <!-- PROFESSIONAL SELF-ASSESSMENT -->
+        <section id="self-assessment" class="card" aria-labelledby="self-title">
+            <div class="section-head">
+                <h2 id="self-title">Professional Self-Assessment</h2>
+                <p class="muted">Holistic introduction • Integration of skills • Preparation for professional practice</p>
+            </div>
+
+            <h3>Professional Summary</h3>
+            <p>
+                Completing the Computer Science program and developing this ePortfolio has allowed me to transform from a
+                technically curious developer into a more disciplined and production aware developer. Throughout the
+                program, I strengthened my understanding of software engineering principles, data structures and algorithms,
+                database design, and security practices. The capstone experience required not only technical implementation but
+                intentional evaluation, refactoring, and alignment with professional standards.
+            </p>
+            <p>
+                This portfolio demonstrates my ability to design, analyze, enhance, and document computing solutions in a manner
+                consistent with industry expectations. Each artifact included reflects growth in architectural thinking,
+                scalability awareness, and maintainability.
+            </p>
+
+            <h3>Collaboration and Communication</h3>
+            <p>
+                Throughout the program, I developed the ability to communicate technical concepts clearly to different audiences.
+                In coursework and project discussions, I learned to translate implementation details into structured explanations
+                suitable for stakeholders and peers. The Informal Code Review included in this ePortfolio reflects this skill by
+                presenting existing functionality, identifying areas for improvement, and explaining planned enhancements without
+                unnecessary technical complexity.
+            </p>
+            <p>
+                Collaboration in discussion threads strengthened my ability to discuss design tradeoffs, incorporate feedback,
+                and iterate on solutions. These experiences shaped my approach to the enhancement process, where I carefully
+                analyzed architectural decisions and refined them based on best practices.
+            </p>
+
+            <h3>Software Engineering and Design</h3>
+            <p>
+                The FFC-MacroButtons artifact demonstrates growth in software architecture and maintainability. Originally a
+                tightly coupled userscript, it was refactored into a modular, configuration driven framework with clear separation
+                of concerns. This enhancement reflects my ability to apply professional engineering principles such as modular
+                design, deterministic behavior, extensibility, and documentation standards.
+            </p>
+            <p>
+                Through this process, I strengthened my ability to evaluate architectural weaknesses, decouple responsibilities,
+                and design systems that scale beyond their original scope.
+            </p>
+
+            <h3>Data Structures and Algorithms</h3>
+            <p>
+                Enhancement Two formalized the algorithmic structures behind configuration resolution and navigation. By applying
+                hierarchical mappings, deterministic path resolution algorithms, Set based deduplication, ordered rendering logic,
+                and stack based navigation, I demonstrated the ability to use appropriate data structures to solve contextual UI
+                challenges.
+            </p>
+            <p>
+                This experience reinforced that algorithms are not isolated academic exercises, and are foundational to building
+                predictable, maintainable, and scalable client side systems.
+            </p>
+
+            <h3>Database Design and Integration</h3>
+            <p>
+                The database enhancement transformed a basic data retrieval implementation into a production aware client database
+                system. By replacing unbounded Firestore collection reads with structured, parameterized queries and cursor based
+                pagination, I improved scalability, efficiency, and cost awareness.
+            </p>
+            <p>
+                Abstracting database access into a dedicated service layer and synchronizing URL parameters with query constraints
+                reflects professional architectural patterns used in modern web applications.
+            </p>
+
+            <h3>Security Mindset</h3>
+            <p>
+                A major growth area during this program has been developing a security focused mindset. In the database
+                enhancement, I intentionally reduced the attack surface by avoiding full collection reads and structuring
+                read only Firestore rules. I also considered how access patterns affect data exposure and scalability.
+            </p>
+            <p>
+                This reflects an understanding that secure architecture is not an afterthought, but a foundational design
+                consideration.
+            </p>
+
+            <h3>Integration of Artifacts</h3>
+            <p>
+                Together, the artifacts in this portfolio demonstrate a cohesive progression:
+            </p>
+            <ul class="list">
+                <li>The FFC-MacroButtons artifact demonstrates architectural discipline and modular engineering.</li>
+                <li>The algorithm enhancement formalizes structured resolution and navigation logic.</li>
+                <li>The database enhancement demonstrates scalable cloud integration and production aware design.</li>
+            </ul>
+            <p>
+                Collectively, they illustrate my ability to evaluate a system, improve its architecture, strengthen its
+                performance characteristics, and consider security implications.
+            </p>
+
+            <h3>Professional Goals and Specialization</h3>
+            <p>
+                While I have not committed to a single specialization within computer science, I have developed a strong
+                interest in software development across multiple domains. Throughout the program, I discovered that I enjoy
+                building systems, refining architecture, and improving how applications behave.
+            </p>
+            <p>
+                Rather than focusing narrowly on one path, I am intentionally exploring areas including frontend development,
+                client server architecture, database integration, security systems, and much more. The artifacts in this portfolio
+                reflect this breadth of interest. They demonstrate modular design, deterministic state handling, structured
+                database access patterns, and security conscious engineering practices.
+            </p>
+            <p>
+                My professional goal is to continue growing as a versatile software developer who can adapt to evolving
+                technologies while applying strong foundational principles in software engineering, algorithms, database
+                design, and security. This ePortfolio represents both the technical skills I have developed and the disciplined
+                engineering mindset I will bring into my career.
+            </p>
+        </section>
+
+        <!-- CODE REVIEW -->
+        <section id="code-review" class="card" aria-labelledby="review-title">
+            <div class="section-head">
+                <h2 id="review-title">Informal Code Review</h2>
+                <p class="muted">Existing functionality • Code analysis • Planned enhancements</p>
+            </div>
+
+            <div class="embed">
+                <iframe
+                    width="560"
+                    height="315"
+                    src="https://www.youtube.com/embed/bd4-faJ8YC0?si=TUuivhPd67umOJIJ"
+                    title="CS 499 - Informal Code Review"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin"
+                    allowfullscreen>
+                </iframe>
+            </div>
+
+            <p style="margin-top: 12px;">
+                <strong>Code Review Link:</strong>
+                <a href="https://www.youtube.com/watch?v=bd4-faJ8YC0" target="_blank" rel="noopener">CS 499 - Informal Code Review</a>
+            </p>
+
+            <hr class="hr" />
+
+            <h3>What the code review covers</h3>
+            <ul class="list">
+                <li>
+                    <strong>Existing functionality:</strong> Demonstration of the original FFC-MacroButtons userscript,
+                    as well as the original web application implementation using unbounded <code>getDocs()</code> Firestore reads.
+                </li>
+                <li>
+                    <strong>Code analysis:</strong> Identification of architectural limitations such as tight coupling,
+                    absence of formal data structures for navigation,
+                    and inefficient database access patterns that did not scale.
+                </li>
+                <li>
+                    <strong>Planned enhancements:</strong> Refactoring toward a modular, configuration driven framework;
+                    implementing structured algorithms (hierarchical mapping, path resolution, Set deduplication,
+                    stack-based navigation); and replacing full collection reads with structured queries,
+                    cursor based pagination, and a dedicated database service layer.
+                </li>
+            </ul>
+        </section>
+
+        <!-- ENHANCEMENT ONE -->
+        <section id="enhancement-1" class="card" aria-labelledby="e1-title">
+            <div class="section-head">
+                <h2 id="e1-title">Enhancement One: Software Design and Engineering</h2>
+                <p class="muted">Artifact: FFC-MacroButtons userscript</p>
+            </div>
+
+            <h3>Artifact Overview</h3>
+            <p>
+                <strong>FFC-MacroButtons</strong> is a Tampermonkey userscript created to inject macro buttons into webpages to
+                automate repetitive tasks. The original script was created outside of coursework in mid to late 2025 and evolved
+                organically to meet a usability need on a single website. While functional, the original implementation was tightly
+                coupled to one site, which limited scalability, maintainability, and extensibility.
+            </p>
+            <p>
+                The enhanced version refactors the userscript into a <strong>configuration driven framework</strong> capable of
+                supporting multiple websites and reusable macro definitions. This refactoring introduces a clear separation of
+                concerns between configuration data, site matching logic, and UI rendering.
+            </p>
+
+            <h3>Justification</h3>
+            <p>
+                This artifact was selected because it demonstrates advanced software design and engineering principles applied to a
+                real world automation task. It provided a strong opportunity to improve architecture and code quality while
+                maintaining practical functionality. The enhancement focuses on transforming a single purpose script into a scalable,
+                reusable solution that aligns with professional software engineering practices.
+            </p>
+
+            <h3>Enhancements Implemented</h3>
+            <ul class="list">
+                <li>
+                    <strong>Modular software architecture:</strong> Separated configuration, site matching/resolution, UI rendering,
+                    and (future) execution logic so new sites and macros can be added without modifying core logic.
+                </li>
+                <li>
+                    <strong>Configuration driven design:</strong> Added support for multiple configurations per site, shared
+                    configurations across domains, and deterministic resolution of active macros.
+                </li>
+                <li>
+                    <strong>Maintainable and extensible structure:</strong> Organized functions, constants, and styles for easier
+                    debugging and future expansion.
+                </li>
+                <li>
+                    <strong>Professional documentation and readability:</strong> Improved maintainability with structured comments,
+                    consistent naming conventions, and descriptive identifiers.
+                </li>
+                <li>
+                    <strong>UI/UX improvements:</strong> Implemented sidebar navigation patterns (including elements like breadcrumbs
+                    and hover feedback) to support intuitive navigation and visual accessibility.
+                </li>
+            </ul>
+
+            <h3>Reflection</h3>
+            <p>
+                Although the userscript is not fully complete, the construction, organization, and documentation reflect
+                professional practices expected for software engineering and design. This enhancement strengthened the artifact by
+                shifting from tightly coupled, site specific logic to a scalable framework emphasizing modularity and separation of
+                concerns.
+            </p>
+            <p>
+                The refactoring process required careful analysis of the original code to identify tight coupling, redundant logic,
+                and opportunities for improved modularity. Key learning included structuring a userscript to support multiple
+                domains while maintaining deterministic behavior; implementing configuration inheritance and resolution strategies to
+                support both global and path specific macros; designing UI elements (such as sidebar navigation and breadcrumbs)
+                with usability and accessibility in mind; and balancing extensibility with simplicity to maintain long term
+                maintainability.
+            </p>
+            <p>
+                The biggest challenges were decoupling site specific logic from UI rendering and establishing a deterministic
+                configuration resolution system. Working through these challenges reinforced best practices in software design,
+                including modular architecture, separation of concerns, and code readability.
+            </p>
+
+            <h3>Program Outcomes Addressed</h3>
+            <ul class="list">
+                <li>
+                    <strong>Outcome 2:</strong> Delivered professional quality, coherent, and technically sound code and UI components.
+                </li>
+                <li>
+                    <strong>Outcome 3:</strong> Designed and evaluated a computing solution using standards and best practices
+                    (modularity, separation of concerns, deterministic configuration resolution).
+                </li>
+                <li>
+                    <strong>Outcome 4:</strong> Applied well founded techniques in code structuring, configuration driven architecture,
+                    and dynamic DOM rendering to enhance maintainability and reusability.
+                </li>
+            </ul>
+
+            <div class="repo-block">
+                <h3>Repository Link</h3>
+                <ul class="list compact">
+                    <li><a href="https://github.com/FarLemon/ffc-userscript-macrobuttons" target="_blank" rel="noopener">FFC-MacroButtons Repository</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ENHANCEMENT TWO -->
+        <section id="enhancement-2" class="card" aria-labelledby="e2-title">
+            <div class="section-head">
+                <h2 id="e2-title">Enhancement Two: Algorithms and Data Structures</h2>
+                <p class="muted">Artifact: FFC-MacroButtons userscript</p>
+            </div>
+
+            <h3>Artifact Overview</h3>
+            <p>
+                The selected artifact is the Tampermonkey userscript that dynamically injects configurable macro buttons into
+                webpages based on the active domain and URL path. The script enables users to define context specific commands that
+                adapt automatically as navigation changes. Originally submitted as part of Milestone Two for Software Design and
+                Engineering enhancements, the artifact was designed with modular components and clear separation of concerns.
+            </p>
+            <p>
+                This enhancement builds upon that foundation by formalizing and extending the <strong>algorithms and data
+                structures</strong> that drive configuration resolution, navigation, and state management.
+            </p>
+
+            <h3>Justification</h3>
+            <p>
+                This enhancement focuses on the intentional application of algorithms and data structures to solve real world
+                software problems—specifically, dynamic configuration resolution and hierarchical user interaction. While elements of
+                these solutions were introduced during Milestone Two to support modular design, this milestone formalizes them as
+                deliberate algorithmic choices rather than incidental implementation details.
+            </p>
+            <p>
+                The enhancement emphasizes <strong>correctness</strong>, <strong>determinism</strong>, and <strong>maintainability</strong>,
+                aligning the artifact with industry best practices for data driven UI behavior and controlled state management.
+            </p>
+
+            <h3>Algorithms and Data Structures Applied</h3>
+            <ul class="list">
+                <li>
+                    <strong>Hierarchical mapping structures:</strong> A nested sitemap object maps domains and URL paths to
+                    configuration identifiers, enabling efficient scoping of configurations and inheritance across path segments
+                    without redundant definitions.
+                </li>
+                <li>
+                    <strong>Path resolution algorithm:</strong> The active URL is decomposed into constituent path segments and
+                    traversed in a controlled order. Configurations are resolved from the most specific scope to the most general to
+                    ensure deterministic behavior while supporting inheritance rules defined by configuration metadata.
+                </li>
+                <li>
+                    <strong>Deduplication via Set structures:</strong> A <code>Set</code> is used during resolution to prevent duplicate
+                    configuration applications while preserving priority ordering—ensuring correctness without unnecessary overhead.
+                </li>
+                <li>
+                    <strong>Ordered processing using arrays:</strong> Explicit ordering fields are respected when rendering macro
+                    buttons and grouped commands, guaranteeing consistent execution and visual order regardless of how configurations
+                    are merged.
+                </li>
+                <li>
+                    <strong>Stack based navigation model:</strong> Navigation through nested macro groups is implemented using a stack,
+                    allowing efficient forward traversal and reliable backtracking while maintaining a clear representation of the
+                    user’s current context.
+                </li>
+            </ul>
+            <p>
+                These choices were made to balance clarity, performance, and extensibility while remaining appropriate for a
+                client side userscript environment.
+            </p>
+
+            <h3>Relationship to Milestone Two</h3>
+            <p>
+                The Software Design and Engineering enhancement completed in Milestone Two established the modular architecture
+                required for this enhancement. Separation of concerns, centralized configuration handling, and isolated rendering
+                logic made it possible to introduce structured algorithms without destabilizing the system.
+            </p>
+            <p>
+                In particular, the refactoring of initialization logic and sidebar updates in Milestone Two enabled deterministic
+                resolution and navigation algorithms to be layered cleanly on top of the existing design. This enhancement therefore
+                represents a continuation and formalization of work begun in Milestone Two rather than an isolated redesign.
+            </p>
+
+            <h3>Standards, Best Practices, and Usability Considerations</h3>
+            <p>
+                The enhanced artifact aligns with software engineering best practices by using clearly defined data structures,
+                predictable algorithms, and controlled state mutation. Variable naming, file naming, and versioning are consistent
+                and descriptive, reducing cognitive load for future maintenance.
+            </p>
+            <p>
+                From a usability perspective, deterministic ordering and stack based navigation provide intuitive interaction
+                patterns. Users can reliably predict which macros will appear and how navigation will behave. Accessibility
+                considerations include clear visual grouping, logical navigation flow, and minimal reliance on complex gestures or
+                hidden state.
+            </p>
+
+            <h3>Program Outcomes Addressed</h3>
+            <ul class="list">
+                <li>
+                    <strong>Outcome 3:</strong> Applied appropriate algorithms and data structures to solve configuration resolution
+                    and navigation problems while accounting for correctness, determinism, and scalability.
+                </li>
+                <li>
+                    <strong>Outcome 4:</strong> Employed well founded computing techniques to design a maintainable and extensible
+                    client side solution that adapts dynamically to user context.
+                </li>
+            </ul>
+
+            <div class="repo-block">
+                <h3>Repository Link</h3>
+                <ul class="list compact">
+                    <li><a href="https://github.com/FarLemon/ffc-userscript-macrobuttons" target="_blank" rel="noopener">FFC-MacroButtons Repository</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ENHANCEMENT THREE -->
+        <section id="enhancement-3" class="card" aria-labelledby="e3-title">
+            <div class="section-head">
+                <h2 id="e3-title">Enhancement Three: Databases</h2>
+                <p class="muted">Artifact: Grounded Creatures Web Application (Firebase Firestore + SolidJS)</p>
+            </div>
+
+            <h3>Artifact Overview</h3>
+            <p>
+                The selected artifact for the database enhancement is a web application developed to display structured data
+                retrieved from Firebase Firestore. The application was originally created as a personal project to organize and
+                display creature data from the game <em>Grounded</em>. It integrates a SolidJS frontend with a NoSQL cloud database
+                (Firebase Firestore), retrieving creature documents and rendering them dynamically within a responsive interface.
+            </p>
+            <p>
+                In its original implementation, the application performed unbounded collection reads using simple
+                <code>getDocs()</code> calls and mapped the results directly to the UI. While functional for small datasets, this
+                approach did not demonstrate optimized querying, scalability considerations, or refined access patterns appropriate
+                for a production level system.
+            </p>
+            <p>
+                This enhancement focuses specifically on improved database interaction, query efficiency, scalability, and
+                reliability.
+            </p>
+
+            <h3>Justification</h3>
+            <p>
+                I selected this artifact because it provides a strong opportunity to demonstrate practical NoSQL database
+                integration within a real world client application. Unlike coursework projects operating in controlled
+                environments, this application interacts with a live cloud hosted database and therefore requires thoughtful query
+                design and optimized access patterns.
+            </p>
+            <p>
+                The original version demonstrated basic database connectivity. The enhanced version significantly expands database
+                capabilities by implementing:
+            </p>
+            <ul class="list">
+                <li>Structured Firestore queries with filtering and limits</li>
+                <li>Pagination using document cursors (<code>startAfter()</code>)</li>
+                <li>Separation of concerns through a dedicated service layer</li>
+                <li>Controlled data transfer to reduce unnecessary reads</li>
+                <li>Infinite scroll integration tied directly to database cursors</li>
+                <li>URL driven filtering synchronized with database backed queries</li>
+                <li>Error handling and fallback behavior</li>
+                <li>Consideration of Firestore security rules for read only access</li>
+            </ul>
+            <p>
+                The artifact was improved by replacing unbounded collection reads with structured, parameterized queries. Instead of
+                loading the entire collection into memory, the application now retrieves documents in controlled batches (25 at a
+                time), using cursor based pagination to support scalability. Alphabet based filtering was implemented using query
+                constraints, and URL parameters were introduced to synchronize application state with database queries.
+            </p>
+            <p>
+                These changes transform the project from a simple data display application into a scalable, production aware client
+                database system.
+            </p>
+
+            <h3>Alignment With Course Outcomes</h3>
+
+            <h4>Outcome 3 — Design and evaluate computing solutions using algorithmic principles and appropriate standards</h4>
+            <p>
+                This enhancement required evaluating several database trade offs, including:
+            </p>
+            <ul class="list">
+                <li>Batch size versus performance</li>
+                <li>Client side versus server side filtering</li>
+                <li>Cursor based pagination versus offset based pagination</li>
+                <li>Index requirements for range queries</li>
+            </ul>
+            <p>
+                By implementing structured queries and cursor based pagination, I demonstrated an understanding of how database
+                design decisions directly affect performance, scalability, and cost efficiency.
+            </p>
+
+            <h4>Outcome 4 — Use well founded and innovative techniques, skills, and tools in computing practices</h4>
+            <p>
+                This milestone demonstrates professional database integration practices by:
+            </p>
+            <ul class="list">
+                <li>Abstracting Firestore access into a service layer (<code>creatureService.ts</code>)</li>
+                <li>Implementing parameterized query logic</li>
+                <li>Managing asynchronous data loading states</li>
+                <li>Integrating <code>IntersectionObserver</code> for automated pagination</li>
+                <li>Synchronizing UI state with URL parameters</li>
+            </ul>
+            <p>
+                These improvements reflect real world architectural patterns used in modern client based applications.
+            </p>
+
+            <h4>Outcome 5 — Develop a security mindset that anticipates vulnerabilities and ensures privacy and data integrity</h4>
+            <p>
+                Although this application uses read only access, security considerations were explicitly addressed. The enhancement
+                included:
+            </p>
+            <ul class="list">
+                <li>Designing queries to retrieve only necessary data</li>
+                <li>Reducing attack surface by avoiding full collection reads</li>
+                <li>Structuring Firestore rules to explicitly permit read only operations</li>
+                <li>Avoiding exposure of sensitive write operations</li>
+            </ul>
+            <p>
+                These considerations demonstrate an understanding of how database architecture interacts with security principles.
+            </p>
+
+            <h3>Reflection on the Enhancement Process</h3>
+            <p>
+                Through this enhancement, I learned that database expertise is not simply about retrieving data, but about designing
+                efficient, scalable, and secure access patterns.
+            </p>
+            <p>
+                One of the most significant challenges was transitioning from simple collection reads to cursor based pagination.
+                Implementing <code>startAfter()</code> required understanding how Firestore indexes and document snapshots function
+                together. Integrating pagination with infinite scrolling also introduced asynchronous state management challenges,
+                requiring careful control of loading flags and intersection observation.
+            </p>
+            <p>
+                Another challenge involved ensuring that URL parameters synchronized properly with database queries without causing
+                redundant reloads. Implementing reactive state tied to query parameters strengthened my understanding of client side
+                routing and state management in a data driven application.
+            </p>
+            <p>
+                Most importantly, this enhancement reinforced the importance of designing with scalability in mind. While unbounded
+                reads may function for small datasets, they are not viable in real world systems. The enhanced design reflects a more
+                professional, production aware approach to database integration.
+            </p>
+
+            <div class="repo-block">
+                <h3>Repository Link</h3>
+                <ul class="list compact">
+                    <li><a href="https://github.com/FarLemon/farfruit-gaming-webapp" target="_blank" rel="noopener">Grounded Creatures Web Application Repository</a></li>
+                    <li><a href="https://farfruit-gaming.web.app/grounded" target="_blank" rel="noopener">Live Demo (Optional)</a></li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- COURSE OUTCOMES -->
+        <section id="course-outcomes" class="card" aria-labelledby="outcomes-title">
+            <div class="section-head">
+                <h2 id="outcomes-title">Course Outcomes</h2>
+                <p class="muted">Demonstrated mastery across all CS 499 program outcomes</p>
+            </div>
+
+            <div class="callout">
+                The following section maps each official CS 499 outcome to specific technical evidence
+                from the enhancements included in this ePortfolio.
+            </div>
+
+            <!-- OUTCOME 1 -->
+            <h3>
+                Outcome 1 — Employ strategies for building collaborative environments that enable diverse audiences
+                to support organizational decision making in the field of computer science
+            </h3>
+            <ul class="list">
+                <li>
+                    <strong>Informal Code Review Video:</strong> Presented existing functionality, identified improvement areas,
+                    and communicated planned enhancements in a manner appropriate for peers or managers.
+                </li>
+                <li>
+                    <strong>Clear Documentation & Structure:</strong> FFC-MacroButtons includes structured comments,
+                    descriptive naming conventions, and modular architecture to improve maintainability for future contributors.
+                </li>
+                <li>
+                    <strong>Service Layer Abstraction (Enhancement Three):</strong> Separating database logic into
+                    <code>creatureService.ts</code> enables clearer team collaboration by isolating responsibilities.
+                </li>
+            </ul>
+
+            <!-- OUTCOME 2 -->
+            <h3>
+                Outcome 2 — Design, develop, and deliver professional quality oral, written, and visual communications
+                that are coherent, technically sound, and appropriately adapted to specific audiences and contexts
+            </h3>
+            <ul class="list">
+                <li>
+                    <strong>Professional Self Assessment:</strong> Provides structured, technically accurate reflection
+                    tailored to faculty and professional audiences.
+                </li>
+                <li>
+                    <strong>Enhancement Narratives:</strong> Each enhancement includes clear artifact description,
+                    justification, technical implementation details, reflection, and outcome alignment.
+                </li>
+                <li>
+                    <strong>UI/UX Improvements in FFC-MacroButtons:</strong> Sidebar navigation, deterministic ordering,
+                    and intuitive interaction patterns demonstrate thoughtful visual communication design.
+                </li>
+            </ul>
+
+            <!-- OUTCOME 3 -->
+            <h3>
+                Outcome 3 — Design and evaluate computing solutions that solve a given problem using algorithmic principles
+                and computer science practices and standards appropriate to its solution, while managing the trade offs involved
+                in design choices
+            </h3>
+            <ul class="list">
+                <li>
+                    <strong>Hierarchical Mapping & Path Resolution Algorithm (Enhancement Two):</strong>
+                    Implemented deterministic configuration resolution using nested objects and structured traversal logic.
+                </li>
+                <li>
+                    <strong>Set Based Deduplication:</strong> Prevented duplicate configuration applications while preserving priority order.
+                </li>
+                <li>
+                    <strong>Stack Based Navigation Model:</strong> Enabled reliable forward traversal and backtracking in nested macro groups.
+                </li>
+                <li>
+                    <strong>Database Tradeoff Evaluation (Enhancement Three):</strong>
+                    Evaluated batch size vs. performance, client vs. server filtering,
+                    cursor based pagination vs. offset pagination, and index requirements.
+                </li>
+                <li>
+                    <strong>Cursor Based Pagination:</strong> Implemented <code>startAfter()</code> with batched reads
+                    to ensure scalability and performance in Firestore queries.
+                </li>
+            </ul>
+
+            <!-- OUTCOME 4 -->
+            <h3>
+                Outcome 4 — Demonstrate an ability to use well founded and innovative techniques, skills, and tools
+                in computing practices for the purpose of implementing computer solutions that deliver value and accomplish
+                industry specific goals
+            </h3>
+            <ul class="list">
+                <li>
+                    <strong>Configuration Driven Architecture:</strong> Designed reusable and extensible configuration handling
+                    in FFC-MacroButtons.
+                </li>
+                <li>
+                    <strong>Modular Software Architecture:</strong> Applied separation of concerns between configuration,
+                    resolution logic, and UI rendering.
+                </li>
+                <li>
+                    <strong>Service Layer Abstraction:</strong> Encapsulated Firestore access into a dedicated module
+                    (<code>creatureService.ts</code>).
+                </li>
+                <li>
+                    <strong>Asynchronous State Management:</strong> Managed loading states and reactive updates in SolidJS.
+                </li>
+                <li>
+                    <strong>IntersectionObserver Integration:</strong> Automated pagination through event driven observation,
+                    demonstrating modern frontend techniques.
+                </li>
+            </ul>
+
+            <!-- OUTCOME 5 -->
+            <h3>
+                Outcome 5 — Develop a security mindset that anticipates adversarial exploits in software architecture and
+                designs to expose potential vulnerabilities, mitigate design flaws, and ensure privacy and enhanced security
+                of data and resources
+            </h3>
+            <ul class="list">
+                <li>
+                    <strong>Controlled Firestore Queries:</strong> Replaced unbounded collection reads with structured,
+                    parameterized queries to reduce data exposure.
+                </li>
+                <li>
+                    <strong>Read Only Firestore Rules:</strong> Structured database access to explicitly restrict write operations.
+                </li>
+                <li>
+                    <strong>Reduced Attack Surface:</strong> Avoided full collection loading and unnecessary client side filtering.
+                </li>
+                <li>
+                    <strong>Deterministic Configuration Resolution:</strong> Prevented unintended macro injection through controlled,
+                    explicit configuration mapping.
+                </li>
+            </ul>
+        </section>
+
+        <!-- ARTIFACTS (Before/After quick access) -->
+        <section id="artifacts" class="card" aria-labelledby="artifacts-title">
+            <div class="section-head">
+                <h2 id="artifacts-title">Artifacts</h2>
+                <p class="muted">Quick access to original vs enhanced versions</p>
+            </div>
+
+            <article class="artifact">
+                <div class="artifact-head">
+                    <h3>Artifact 1 — FFC-MacroButtons (Enhancements 1 & 2)</h3>
+                </div>
+
+                <div class="grid two">
+                    <div class="panel">
+                        <h4>Original</h4>
+                        <ul class="list compact">
+                            <li><a href="https://github.com/FarLemon/ffc-userscript-macrobuttons/blob/archive/ffc-macrobuttons-1.0.0.user.js" target="_blank" rel="noopener">FFC-MacroButtons-1.0.0</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="panel">
+                        <h4>Enhancement 1</h4>
+                        <ul class="list compact">
+                            <li><a href="https://github.com/FarLemon/ffc-userscript-macrobuttons/blob/archive/ffc-macrobuttons-1.1.0.user.js" target="_blank" rel="noopener">FFC-MacroButtons-1.1.0</a></li>
+                        </ul>
+                        <h4>Enhancement 2</h4>
+                        <ul class="list compact">
+                            <li><a href="https://github.com/FarLemon/ffc-userscript-macrobuttons/tree/release" target="_blank" rel="noopener">FFC-MacroButtons-Core</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <hr class="hr" />
+
+            <article class="artifact">
+                <div class="artifact-head">
+                    <h3>Artifact 2 — Grounded Creatures Webapp (Enhancement 3)</h3>
+                </div>
+
+                <div class="grid two">
+                    <div class="panel">
+                        <h4>Original</h4>
+                        <ul class="list compact">
+                            <li><a href="https://github.com/FarLemon/farfruit-gaming-webapp/tree/original-artifact" target="_blank" rel="noopener">Original webapp</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="panel">
+                        <h4>Enhanced</h4>
+                        <ul class="list compact">
+                            <li><a href="https://github.com/FarLemon/farfruit-gaming-webapp/tree/main" target="_blank" rel="noopener">Enhanced webapp</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </article>
+
+            <footer class="footer">
+                <p>© <span id="year"></span> Joshua Messer • Hosted on GitHub Pages</p>
+            </footer>
+        </section>
+        </main>
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
