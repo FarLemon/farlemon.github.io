@@ -1,4 +1,5 @@
 # CS 499 ePortfolio — Joshua Messer
+Go to the [ePortfolio Webpage](https://farlemon.github.io/)
 
 ## Introduction
 
@@ -346,3 +347,4 @@ The following section maps each official CS 499 outcome to specific technical ev
 
 - **Original:** https://github.com/FarLemon/farfruit-gaming-webapp/tree/original-artifact
 - **Enhanced:** https://github.com/FarLemon/farfruit-gaming-webapp/tree/main
+
